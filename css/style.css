@@ -1,5 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*
+Colores que utilizaré:
+#FF161F #F2F2F2
+
+Familia Tipográfica: (anotado para no olvidarme)
+font-family: 'Poppins', sans-serif;
+*/
+
+/* Inicio del header */
+
+header{
+    background-color: #FF161F;
+}
+
+.logo a img{
+    width: 60px;
+    height: 60px;
+}
+
+.navBar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 100px;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.navBar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
 }
