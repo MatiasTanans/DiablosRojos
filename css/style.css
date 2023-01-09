@@ -16,25 +16,42 @@ font-family: 'Poppins', sans-serif;
 /* Inicio del header */
 
 header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;;
     background-color: #FF161F;
 }
 
-.logo a img{
-    width: 60px;
-    height: 60px;
+a{
+    text-decoration: none;
+    color: #F2F2F2;
 }
 
 .navBar{
     display: flex;
-    justify-content: flex-end;
-    gap: 100px;
     list-style: none;
-    margin-right: 50px;
 }
 
-.navBar li a{
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
+.navBar .navBar_list{
+    padding: 0px 20px;
+}
+
+.navBar .navBar_list a{
+    transition: all .3s ease;
+}
+
+.navBar .navBar_list a:hover{
+    color: black;
+}
+
+.navBar_button{
+    border: none;
+}
+
+.navBar_button a{
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 10px;
+    color: #FF161F;
 }
