@@ -14,11 +14,16 @@ Familia Tipográfica: 'Poppins', sans-serif;
 
 /* Inicio del header */
 
+body{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
     background-color: #FF161F;
 }
 
@@ -54,4 +59,66 @@ a{
     padding: 10px;
     border-radius: 10px;
     color: #FF161F;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-footer{
+    height: 20px;
+    margin-bottom: 1rem;
+    color: red;
+}
+
+.iconos-container, .iconos-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.iconos-footer{
+    border-radius: 40px;
+    border: 1px solid red;
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.iconos-footer:hover{
+    background-color: black;
+    filter: invert(1)
+}
+
+.menu-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    list-style-type: none;
+    color: red;
+    font-size: 18px;
+}
+
+.menu-items{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.menu-items:hover{
+    opacity: 1.5;
 }
