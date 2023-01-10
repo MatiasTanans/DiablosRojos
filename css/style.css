@@ -77,7 +77,7 @@ footer{
 .logo-footer{
     height: 20px;
     margin-bottom: 1rem;
-    color: red;
+    color: #FF161F;
 }
 
 .iconos-container, .iconos-footer{
@@ -90,7 +90,7 @@ footer{
 
 .iconos-footer{
     border-radius: 40px;
-    border: 1px solid red;
+    border: 1px solid #FF161F;
     background-position: center;
     background-size: 40%;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@ footer{
     flex-wrap: wrap;
     margin-bottom: 1rem;
     list-style-type: none;
-    color: red;
+    color: #FF161F;
     font-size: 18px;
 }
 
@@ -147,4 +147,67 @@ footer{
         justify-content: center;
         align-items: center;
     }
+}
+
+/* ------------ PAGE: GALERY GRID ------------ */
+
+.body-galery{
+    background-color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-galery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5px;
+    background-color: black;
+    font-size: 25px;
+    color: #FF161F;
+}
+
+.caja_padre{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+
+    width: 99%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px black;
+    background-color: #ff161eda;
+}
+
+.imagen{
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 12px;
+}
+
+@media(max-width:768px){
+
+    .title-galery{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: black;
+        font-size: 25px;
+        color: red;
+    }
+
+    .caja_padre{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
 }
