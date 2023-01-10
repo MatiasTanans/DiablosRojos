@@ -122,3 +122,29 @@ footer{
 .menu-items:hover{
     opacity: 1.5;
 }
+
+@media(max-width:768px){
+    header{
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .navBar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navBar_list{
+        font-size: 32px;
+        justify-content: center;
+        align-items: center;
+    }
+}
