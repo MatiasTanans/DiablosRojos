@@ -9,8 +9,7 @@
 Colores que utilizaré:
 #FF161F #F2F2F2
 
-Familia Tipográfica: (anotado para no olvidarme)
-font-family: 'Poppins', sans-serif;
+Familia Tipográfica: 'Poppins', sans-serif;
 */
 
 /* Inicio del header */
@@ -25,6 +24,7 @@ header{
 
 a{
     text-decoration: none;
+    font-weight: 650;
     color: #F2F2F2;
 }
 
