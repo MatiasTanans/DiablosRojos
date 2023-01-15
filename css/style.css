@@ -347,3 +347,70 @@ footer{
     align-items: center;
     font-size: 20px;
 }
+
+@media(max-width:768px){
+
+    .body-palmares{
+        background-color: lightgrey;
+    }
+
+    .title-primera{
+        border: 2px solid white ;
+    }
+
+    .trofeos-primera{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .años-primera{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .title-copas-nacionales{
+        border: 2px solid white ;
+    }
+
+    .trofeos-copas-nacionales{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .años-copas-nacionales{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .title-internacionales{
+        border: 2px solid white ;
+    }
+
+    .trofeos-internacionales{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .años-internacionales{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .title-copas-afa-auf{
+        border: 2px solid white ;
+    }
+
+    .trofeos-copas-afa-auf{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .años-copas-afa-auf{
+        font-size: 20px;
+        text-align: center;
+    }
+}
