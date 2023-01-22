@@ -57,6 +57,7 @@ header {
 .title-fixture {
   background-color: black;
   color: white;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   margin: 5px 0px 5px 0px; }
 
@@ -411,12 +412,13 @@ header {
     width: 90%; } }
 
 .body-palmares {
-  background-color: grey; }
+  background-color: lightgray; }
 
 /* ------------ SECTION: PRIMERA DIVISIÓN ------------ */
 .title-primera {
   background-color: black;
   color: white;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   margin-top: 5px; }
 
@@ -443,6 +445,7 @@ header {
 .title-copas-nacionales {
   background-color: black;
   color: white;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   margin-top: 5px; }
 
@@ -469,6 +472,7 @@ header {
 .title-internacionales {
   background-color: black;
   color: white;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   margin-top: 5px; }
 
@@ -500,6 +504,7 @@ header {
 .title-copas-afa-auf {
   background-color: black;
   color: white;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   margin-top: 5px; }
 
@@ -523,8 +528,11 @@ header {
   font-size: 20px; }
 
 .body-galery {
-  background-color: grey;
+  background-color: lightgray;
   font-family: 'Poppins', sans-serif; }
+
+.main-galery {
+  color: lightgray; }
 
 .title-galery {
   display: flex;
@@ -533,6 +541,7 @@ header {
   flex-direction: column;
   margin-top: 5px;
   background-color: black;
+  font-family: "Oswald", sans-serif;
   font-size: 50px;
   color: #FF161F; }
 
@@ -557,6 +566,65 @@ header {
   object-fit: cover;
   object-position: center center;
   border-radius: 12px; }
+
+.body-contacto {
+  background-color: lightgray; }
+
+.main-contacto {
+  background-color: lightgray; }
+
+.titulo-secciones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1px;
+  background-color: black;
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+  color: #F2F2F2; }
+
+.p-del-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #252323;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #F2F2F2; }
+
+.form-consultas {
+  width: 400px;
+  background: black;
+  padding: 30px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000; }
+
+.controls {
+  width: 100%;
+  background: black;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid white;
+  font-family: 'arial';
+  font-size: 18px;
+  color: white; }
+
+.botons {
+  width: 100%;
+  background: #FF161F;
+  border: 1px solid white;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 20px; }
 
 footer {
   width: 100%;

@@ -1,6 +1,10 @@
 .body-galery{
-    background-color: grey;
+    background-color: lightgray;
     font-family: 'Poppins', sans-serif;
+}
+
+.main-galery{
+    color: lightgray;
 }
 
 .title-galery{
@@ -10,6 +14,7 @@
     flex-direction: column;
     margin-top: 5px;
     background-color: black;
+    font-family: $typo-secundario;
     font-size: 50px;
     color: #FF161F;
 }
