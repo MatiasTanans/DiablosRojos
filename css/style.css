@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@1,200&family=Roboto:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  background-color: #FF161F; }
+  header a {
+    text-decoration: none;
+    font-weight: 650;
+    color: #F2F2F2; }
+
+.logo {
+  display: flex; }
+
+.logo a {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  text-shadow: 0px 0px 5px black;
+  color: #F2F2F2; }
+
+.logo-img {
+  margin: 2px 2px 2px 2px; }
+
+.navBar {
+  display: flex;
+  list-style: none; }
+
+.navBar .navBar_list {
+  padding: 0px 20px; }
+
+.navBar .navBar_list a {
+  transition: all .3s ease; }
+
+.navBar .navBar_list a:hover {
+  color: black; }
+
+.navBar_button {
+  border: none; }
+
+.navBar_button a {
+  background-color: #F2F2F2;
+  padding: 10px;
+  border-radius: 10px;
+  color: #FF161F; }
+
+@media (max-width: 768px) {
+  header {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .dr-titulo {
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin: 20px; }
+  .navBar_button a {
+    padding: 10px;
+    font-size: 18px; }
+  .logo a {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    text-shadow: 0px 0px 5px black;
+    color: #F2F2F2;
+    margin: 2px; }
+  .logo-img1 {
+    display: none; } }
+
+@media (max-width: 320px) {
+  header {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .dr-titulo {
+    font-size: 25px;
+    margin: 6px; }
+  .navBar_button a {
+    padding: 10px;
+    font-size: 18px; }
+  .logo a {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    text-shadow: 0px 0px 5px black;
+    color: #F2F2F2;
+    margin: 2px; }
+  .logo-img1 {
+    display: none; }
+  .navBar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .navBar_list {
+    font-size: 30px;
+    justify-content: center;
+    align-items: center; } }
