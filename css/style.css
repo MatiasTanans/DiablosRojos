@@ -50,16 +50,16 @@ header {
   border-radius: 10px;
   color: #FF161F; }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   header {
     height: 200px;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center; }
   .dr-titulo {
-    font-size: 50px;
+    font-size: 20px;
     letter-spacing: 5px;
     margin: 20px; }
   .navBar_button a {
@@ -75,7 +75,7 @@ header {
   .logo-img1 {
     display: none; } }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
   header {
     height: 300px;
     width: 100%;
