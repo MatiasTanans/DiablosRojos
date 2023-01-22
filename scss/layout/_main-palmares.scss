@@ -1,0 +1,133 @@
+.body-palmares{
+    background-color: grey;
+}
+
+/* ------------ SECTION: PRIMERA DIVISIÓN ------------ */
+
+.title-primera{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.trofeos-primera{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rectangulo{
+    width: 140px;
+    height: 100px;
+    border: 1px solid white ;
+    background: #FF161F;
+    margin: 6px 6px 6px 6px;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+.años-primera{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+/* ------------ SECTION: COPAS NACIONALES ------------ */
+
+.title-copas-nacionales{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.trofeos-copas-nacionales{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rectangulo{
+    width: 140px;
+    height: 100px;
+    border: 1px solid white ;
+    background: #FF161F;
+    margin: 6px 6px 6px 6px;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+.años-copas-nacionales{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+/* ------------ SECTION: COPAS INTERNACIONALES ------------ */
+
+.title-internacionales{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.trofeos-internacionales{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rectangulo{
+    width: 140px;
+    height: 100px;
+    border: 1px solid white ;
+    background: #FF161F;
+    margin: 6px 6px 6px 6px;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+.años-internacionales{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.title-copas-afa-auf{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* ------------ SECTION: COPAS AFA/AUF ------------ */
+
+.title-copas-afa-auf{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.trofeos-copas-afa-auf{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rectangulo{
+    width: 140px;
+    height: 100px;
+    border: 1px solid white ;
+    background: #FF161F;
+    margin: 6px 6px 6px 6px;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+.años-copas-afa-auf{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}

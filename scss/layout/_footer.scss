@@ -1,0 +1,61 @@
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-footer{
+    height: 20px;
+    margin-bottom: 1rem;
+    color: $typo-color-red;
+}
+
+.iconos-container, .iconos-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.iconos-footer{
+    border-radius: 40px;
+    border: 1px solid $typo-color-red;
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.iconos-footer:hover{
+    background-color: black;
+    filter: invert(1)
+}
+
+.menu-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    list-style-type: none;
+    color: $typo-color-red;
+    font-size: 18px;
+}
+
+.menu-items{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.menu-items:hover{
+    opacity: 1.5;
+}
