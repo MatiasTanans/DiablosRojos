@@ -1,10 +1,117 @@
-.container_welcome{
+.resultados{
+    background-image: url(../assets/img/fechas/independiente_platense.png);
+    background-repeat: no-repeat;
+}
+
+.table_container{
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table_container caption{
+    font-size: 32px;
+    font-family: $typo-secundario;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
+.table_container tr{
+    font-size: 30px;
+    font-family: $typo-secundario;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
+/* ------------ NOTICIAS ------------ */
+
+.container-news {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
     background-color: lightcoral;
 }
 
-.container_welcome h2{
-    font-size: 35px;
+.row {
+    display: flex;
+    width: 100%;
+}
+
+#news-feed {
+    margin-bottom: 2px;
+}
+
+#news-feed .row .left-col {
+    width: 65%;
+}
+
+#news-feed .row .right-col {
+    width: 35%;
+}
+
+#news-feed article {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1%;
+    padding-right: 1%;
+    height: 100%;
+}
+
+#news-feed .row .left-col article {
+    height: 100%;
+}
+
+#news-feed .row .right-col article {
+    height: 50%;
+}
+
+
+#news-feed h2 {
+    color: black;
+    font-size: 30px;
+    flex-grow: 1;
     text-align: center;
-    margin: 0px 2px 2px 2px;
+    font-family: $typo-secundario;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+    background: red;
+}
+
+#news-feed p {
+    flex-grow: 1;
+    font-size: 20px;
+    color: grey;
+}
+
+#news-feed figure {
+    margin: 0;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+#news-feed figure img {
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid lightgrey;
+}
+
+#news-feed figure figcaption {
+    width: auto;
+    padding: 15px;
+    border-radius: 5px;
+    background: black;
+
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+#news-feed figure:hover figcaption {
+    background: red;
+}
+
+#news-feed figure figcaption span {
+    color: white;
     font-family: $typo-header;
 }
