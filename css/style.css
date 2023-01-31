@@ -155,7 +155,7 @@ header {
   color: white;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  margin: 5px 0px 5px 0px; }
+  margin: 1px 0px 5px 0px; }
 
 .l-v {
   display: flex;
@@ -516,7 +516,7 @@ header {
   color: white;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  margin-top: 5px; }
+  margin-top: 2px; }
 
 .trofeos-primera {
   display: flex;
@@ -624,7 +624,7 @@ header {
   font-size: 20px; }
 
 .body-galery {
-  background-color: lightgray;
+  background-image: url(../assets/img/background-galery.png);
   font-family: 'Poppins', sans-serif; }
 
 .main-galery {
@@ -635,7 +635,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 5px;
+  margin-top: 0px;
   background-color: black;
   font-family: "Oswald", sans-serif;
   font-size: 50px;
@@ -664,17 +664,14 @@ header {
   border-radius: 12px; }
 
 .body-contacto {
-  background-color: lightgray; }
-
-.main-contacto {
-  background-color: lightgray; }
+  background-image: url(../assets/img/background-contacto.png);
+  background-repeat: no-repeat; }
 
 .titulo-secciones {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 1px;
   background-color: black;
   font-size: 50px;
   font-family: "Oswald", sans-serif;

@@ -1,5 +1,5 @@
 .body-galery{
-    background-color: lightgray;
+    background-image: url(../assets/img/background-galery.png);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 5px;
+    margin-top: 0px;
     background-color: black;
     font-family: $typo-secundario;
     font-size: 50px;
