@@ -846,7 +846,7 @@ footer {
     font-size: 20px;
     text-align: center; } }
 
-@media (max-width: 380px) {
+@media (max-width: 720px) {
   /* ------------ PAGE: INDEX ------------ */
   .resultados {
-    background-image: url(../assets/img/fechas/independiente_platense_380px.png); } }
+    background-image: url(../assets/img/fechas/independiente_platense_720px.png); } }
