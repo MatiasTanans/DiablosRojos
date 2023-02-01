@@ -866,3 +866,20 @@ footer {
   .p-del-titulo {
     text-align: center;
     font-size: 18px; } }
+
+@media (max-width: 390px) {
+  /* ------------ PAGE: INDEX ------------ */
+  .resultados {
+    background-image: url(../assets/img/fechas/independiente_platense_390px.png);
+    background-repeat: no-repeat; } }
+
+@media (max-width: 360px) {
+  /* ------------ PAGE: INDEX ------------ */
+  .resultados {
+    background-image: url(../assets/img/fechas/independiente_platense_360px.png);
+    background-repeat: no-repeat; }
+  /* ------------ PAGE: CONTACTO ------------ */
+  .form-consultas {
+    width: 350px;
+    display: flex;
+    flex-direction: column; } }
