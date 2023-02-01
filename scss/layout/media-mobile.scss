@@ -1,8 +1,16 @@
-@media(max-width:720px){
+@media(max-width:360px){
 
     /* ------------ PAGE: INDEX ------------ */
 
     .resultados{
-        background-image: url(../assets/img/fechas/independiente_platense_720px.png);
+        background-image: url(../assets/img/fechas/independiente_platense_360px.png);
+    }
+
+    .table_container caption{
+        font-size: 30px;
+    }
+
+    .table_container tr{
+        font-size: 21px;
     }
 }
