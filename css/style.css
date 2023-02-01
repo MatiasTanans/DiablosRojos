@@ -773,6 +773,16 @@ footer {
 .menu-items:hover {
   opacity: 1.5; }
 
+@media (max-width: 400px) {
+  /* ------------ PAGE: INDEX ------------ */
+  .resultados {
+    background-image: url(../assets/img/fechas/independiente_platense_400px.png);
+    margin-bottom: 1px; }
+  .table_container caption {
+    font-size: 31px; }
+  .table_container tr {
+    font-size: 21px; } }
+
 @media (max-width: 768px) {
   header {
     height: 300px;
@@ -845,13 +855,3 @@ footer {
   .años-copas-afa-auf {
     font-size: 20px;
     text-align: center; } }
-
-@media (max-width: 400px) {
-  /* ------------ PAGE: INDEX ------------ */
-  .resultados {
-    background-image: url(../assets/img/fechas/independiente_platense_400px.png);
-    margin-bottom: 1px; }
-  .table_container caption {
-    font-size: 31px; }
-  .table_container tr {
-    font-size: 21px; } }
