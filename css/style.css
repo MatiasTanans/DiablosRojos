@@ -854,4 +854,6 @@ footer {
   .table_container caption {
     font-size: 31px; }
   .table_container tr {
-    font-size: 21px; } }
+    font-size: 21px; }
+  .row {
+    flex-direction: column; } }
