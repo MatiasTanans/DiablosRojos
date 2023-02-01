@@ -856,4 +856,13 @@ footer {
   .table_container tr {
     font-size: 21px; }
   .row {
-    flex-direction: column; } }
+    flex-direction: column; }
+  /* ------------ PAGE: CONTACTO ------------ */
+  .body-contacto {
+    background-image: none;
+    background-color: white; }
+  .titulo-secciones {
+    font-size: 40px; }
+  .p-del-titulo {
+    text-align: center;
+    font-size: 18px; } }
