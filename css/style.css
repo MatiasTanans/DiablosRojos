@@ -52,7 +52,7 @@ header {
   color: #FF161F; }
 
 .resultados {
-  background-image: url(../assets/img/fechas/independiente_platense.png);
+  background-image: url(../assets/img/fechas/resultados.png);
   background-repeat: no-repeat; }
 
 .table_container {
@@ -792,7 +792,7 @@ footer {
     align-items: center; }
   /* ------------ PAGE: INDEX ------------ */
   .resultados {
-    background-image: url(../assets/img/fechas/independiente_platense_768px.png);
+    background-image: url(../assets/img/fechas/resultados_768px.png);
     background-repeat: no-repeat; }
   /* ------------ PAGE: GALERY GRID ------------ */
   .title-galery {
@@ -846,10 +846,16 @@ footer {
     font-size: 20px;
     text-align: center; } }
 
+@media (max-width: 720px) {
+  /* ------------ PAGE: INDEX ------------ */
+  .resultados {
+    background-image: url(../assets/img/fechas/resultados_720px.png);
+    background-repeat: no-repeat; } }
+
 @media (max-width: 412px) {
   /* ------------ PAGE: INDEX ------------ */
   .resultados {
-    background-image: url(../assets/img/fechas/independiente_platense_412px.png);
+    background-image: url(../assets/img/fechas/resultados_412px.png);
     margin-bottom: 1px; }
   .table_container caption {
     font-size: 31px; }
@@ -870,13 +876,13 @@ footer {
 @media (max-width: 390px) {
   /* ------------ PAGE: INDEX ------------ */
   .resultados {
-    background-image: url(../assets/img/fechas/independiente_platense_390px.png);
+    background-image: url(../assets/img/fechas/resultados_390px.png);
     background-repeat: no-repeat; } }
 
 @media (max-width: 360px) {
   /* ------------ PAGE: INDEX ------------ */
   .resultados {
-    background-image: url(../assets/img/fechas/independiente_platense_360px.png);
+    background-image: url(../assets/img/fechas/resultados_360px.png);
     background-repeat: no-repeat; }
   /* ------------ PAGE: CONTACTO ------------ */
   .form-consultas {
