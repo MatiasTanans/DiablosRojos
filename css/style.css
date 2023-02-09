@@ -636,7 +636,9 @@ header {
   align-items: center;
   flex-direction: column;
   margin-top: 0px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.829);
+  border-bottom: 2px;
+  border-top: 2px;
   font-family: "Oswald", sans-serif;
   font-size: 50px;
   color: #FF161F; }
