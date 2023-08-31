@@ -52,8 +52,8 @@ header {
   color: #FF161F; }
 
 .resultados {
-  background-image: url(../assets/img/fechas/resultados.png);
-  background-repeat: no-repeat; }
+  background: #b11623;
+  margin: 0 0 1px 0; }
 
 .table_container {
   margin-top: 1px;
@@ -792,10 +792,6 @@ footer {
     font-size: 32px;
     justify-content: center;
     align-items: center; }
-  /* ------------ PAGE: INDEX ------------ */
-  .resultados {
-    background-image: url(../assets/img/fechas/resultados_768px.png);
-    background-repeat: no-repeat; }
   /* ------------ PAGE: GALERY GRID ------------ */
   .title-galery {
     display: flex;
@@ -848,17 +844,8 @@ footer {
     font-size: 20px;
     text-align: center; } }
 
-@media (max-width: 720px) {
-  /* ------------ PAGE: INDEX ------------ */
-  .resultados {
-    background-image: url(../assets/img/fechas/resultados_720px.png);
-    background-repeat: no-repeat; } }
-
 @media (max-width: 412px) {
   /* ------------ PAGE: INDEX ------------ */
-  .resultados {
-    background-image: url(../assets/img/fechas/resultados_412px.png);
-    margin-bottom: 1px; }
   .table_container caption {
     font-size: 31px; }
   .table_container tr {
@@ -875,19 +862,8 @@ footer {
     text-align: center;
     font-size: 18px; } }
 
-@media (max-width: 390px) {
-  /* ------------ PAGE: INDEX ------------ */
-  .resultados {
-    background-image: url(../assets/img/fechas/resultados_390px.png);
-    background-repeat: no-repeat; } }
-
-@media (max-width: 360px) {
-  /* ------------ PAGE: INDEX ------------ */
-  .resultados {
-    background-image: url(../assets/img/fechas/resultados_360px.png);
-    background-repeat: no-repeat; }
-  /* ------------ PAGE: CONTACTO ------------ */
-  .form-consultas {
-    width: 350px;
-    display: flex;
-    flex-direction: column; } }
+/* ------------ PAGE: CONTACTO ------------ */
+.form-consultas {
+  width: 350px;
+  display: flex;
+  flex-direction: column; }

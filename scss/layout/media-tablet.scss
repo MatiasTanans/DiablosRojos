@@ -1,127 +1,108 @@
-@media(max-width:768px){
-    header{
-        height: 300px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+@media (max-width: 768px) {
+  header {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .logo{
-        display: none;
-    }
+  .logo {
+    display: none;
+  }
 
-    .navBar{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .navBar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .navBar_list{
-        font-size: 32px;
-        justify-content: center;
-        align-items: center;
-    }
+  .navBar_list {
+    font-size: 32px;
+    justify-content: center;
+    align-items: center;
+  }
 
-        /* ------------ PAGE: INDEX ------------ */
+  /* ------------ PAGE: GALERY GRID ------------ */
 
-        .resultados{
-            background-image: url(../assets/img/fechas/resultados_768px.png);
-            background-repeat: no-repeat;
-        }
+  .title-galery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: black;
+    font-size: 25px;
+    color: red;
+  }
 
-    /* ------------ PAGE: GALERY GRID ------------ */
+  .caja_padre {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    .title-galery{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-        background-color: black;
-        font-size: 25px;
-        color: red;
-    }
+  /* ------------ PAGE: PALMARÉS ------------ */
 
-    .caja_padre{
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .body-palmares {
+    background-color: lightgrey;
+  }
 
+  .title-primera {
+    border: 2px solid white;
+  }
 
-    /* ------------ PAGE: PALMARÉS ------------ */
+  .trofeos-primera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    
-    .body-palmares{
-        background-color: lightgrey;
-    }
+  .años-primera {
+    font-size: 20px;
+    text-align: center;
+  }
 
-    .title-primera{
-        border: 2px solid white ;
-    }
+  .title-copas-nacionales {
+    border: 2px solid white;
+  }
 
-    .trofeos-primera{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .trofeos-copas-nacionales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .años-primera{
-        font-size: 20px;
-        text-align: center;
-    }
+  .años-copas-nacionales {
+    font-size: 20px;
+    text-align: center;
+  }
 
-    .title-copas-nacionales{
-        border: 2px solid white ;
-    }
+  .title-internacionales {
+    border: 2px solid white;
+  }
 
-    .trofeos-copas-nacionales{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .trofeos-internacionales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .años-copas-nacionales{
-        font-size: 20px;
-        text-align: center;
-    }
+  .años-internacionales {
+    font-size: 20px;
+    text-align: center;
+  }
 
-    .title-internacionales{
-        border: 2px solid white ;
-    }
+  .title-copas-afa-auf {
+    border: 2px solid white;
+  }
 
-    .trofeos-internacionales{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .trofeos-copas-afa-auf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .años-internacionales{
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .title-copas-afa-auf{
-        border: 2px solid white ;
-    }
-
-    .trofeos-copas-afa-auf{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .años-copas-afa-auf{
-        font-size: 20px;
-        text-align: center;
-    }
-}
-
-@media(max-width:720px){
-
-            /* ------------ PAGE: INDEX ------------ */
-
-            .resultados{
-                background-image: url(../assets/img/fechas/resultados_720px.png);
-                background-repeat: no-repeat;
-            }
+  .años-copas-afa-auf {
+    font-size: 20px;
+    text-align: center;
+  }
 }
